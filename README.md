@@ -1,24 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Next.js App
 
-## Getting Started
+โปรเจคนี้คือ [Next.js](https://nextjs.org) ที่สร้างด้วย [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) พร้อมด้วย TypeScript และ Tailwind CSS
 
-First, run the development server:
+## เริ่มต้นใช้งาน (Getting Started)
+
+รัน development server ก่อน:
 
 ```bash
 npm run dev
-# or
+# หรือ
 yarn dev
-# or
+# หรือ
 pnpm dev
-# or
+# หรือ
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+เปิด [http://localhost:3000](http://localhost:3000) ในเบราว์เซอร์เพื่อดูผลลัพธ์
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+คุณสามารถแก้ไขหน้าเว็บโดยการแก้ไขไฟล์ `src/app/page.tsx` หน้าเว็บจะอัพเดทอัตโนมัติเมื่อคุณแก้ไขไฟล์
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## คุณสมบัติที่ติดตั้งมา
+
+- ✅ Next.js 16.1.6 พร้อม App Router
+- ✅ TypeScript
+- ✅ Tailwind CSS v4
+- ✅ ESLint
+- ✅ React Compiler
+- ✅ Import alias `@/*`
 
 ## Learn More
 
