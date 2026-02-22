@@ -178,7 +178,7 @@ export default function LoginPage() {
           <div className="text-center mt-6">
             <p className="text-gray-400">
               ยังไม่มีบัญชี?{" "}
-              <a href="#" className="text-blue-400 hover:text-blue-300 transition font-semibold">
+              <a href="/register" className="text-blue-400 hover:text-blue-300 transition font-semibold">
                 สมัครสมาชิก
               </a>
             </p>
