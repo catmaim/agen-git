@@ -52,9 +52,12 @@ export default function Home() {
               <a href="#about" className="text-gray-300 hover:text-white transition">เกี่ยวกับ</a>
               <a href="#contact" className="text-gray-300 hover:text-white transition">ติดต่อ</a>
             </div>
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition">
-              เริ่มต้นใช้งาน
-            </button>
+            <div className="flex items-center space-x-4">
+              <a href="/login" className="text-white hover:text-gray-300 transition">เข้าสู่ระบบ</a>
+              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition">
+                เริ่มต้นใช้งาน
+              </button>
+            </div>
           </div>
         </div>
       </nav>
